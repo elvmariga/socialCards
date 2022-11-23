@@ -4,7 +4,7 @@ import Pic from "../Card/logo192.png";
 import styles from './Card.module.css';
 
 
-const Card = (props) => (
+const Card = () => (
   <div className={styles.Card} data-testid="Card">
     <h1>{props.name}</h1>
     <img src={props.icon} alt="" />
